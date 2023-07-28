@@ -34,21 +34,36 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a>Item 1</a>
+              <a>Home</a>
             </li>
             <li>
-              <a>Parent</a>
+              <a>Categories</a>
               <ul className="p-2">
                 <li>
-                  <a>Submenu 1</a>
+                  <a>CPU / Processor</a>
                 </li>
                 <li>
-                  <a>Submenu 2</a>
+                  <a>Motherboard</a>
+                </li>
+                <li>
+                  <a>RAM</a>
+                </li>
+                <li>
+                  <a>Power Supply Unit</a>
+                </li>
+                <li>
+                  <a>Storage Device</a>
+                </li>
+                <li>
+                  <a>Monitor</a>
+                </li>
+                <li>
+                  <a>Others</a>
                 </li>
               </ul>
             </li>
             <li>
-              <a>Item 3</a>
+              <a>About</a>
             </li>
           </ul>
         </div>
@@ -62,7 +77,7 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>Item 1</a>
+            <a>Home</a>
           </li>
           <li tabIndex={0}>
             <details>
@@ -93,7 +108,7 @@ const Navbar = () => {
             </details>
           </li>
           <li>
-            <a>Item 3</a>
+            <a>About</a>
           </li>
         </ul>
       </div>

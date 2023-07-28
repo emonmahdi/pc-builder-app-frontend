@@ -5,9 +5,9 @@ import Footer from "../shared/Footer";
 const RootLayout = ({ children }) => {
   return (
     <div>
-      <div className="w-[100%]">
+      <div className="w-[100%] overflow-hidden">
         <Navbar />
-        <div className="h-[100vh] p-8">{children}</div>
+        <div className="h-[auto] p-8">{children}</div>
         <Footer />
       </div>
     </div>
