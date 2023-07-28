@@ -1,5 +1,6 @@
 import React from "react";
 import { Breadcrumb, Layout, Menu, theme } from "antd";
+import Link from "next/link";
 
 const { Header, Content, Footer } = Layout;
 
@@ -51,7 +52,12 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+        <Link
+          href="/"
+          className="text-green-950 font-bold no-underline normal-case text-2xl"
+        >
+          PC Builder App
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
@@ -60,13 +66,28 @@ const Navbar = () => {
           </li>
           <li tabIndex={0}>
             <details>
-              <summary>Parent</summary>
+              <summary>Categories </summary>
               <ul className="p-2">
                 <li>
-                  <a>Submenu 1</a>
+                  <a>CPU / Processor</a>
                 </li>
                 <li>
-                  <a>Submenu 2</a>
+                  <a>Motherboard</a>
+                </li>
+                <li>
+                  <a>RAM</a>
+                </li>
+                <li>
+                  <a>Power Supply Unit</a>
+                </li>
+                <li>
+                  <a>Storage Device</a>
+                </li>
+                <li>
+                  <a>Monitor</a>
+                </li>
+                <li>
+                  <a>Others</a>
                 </li>
               </ul>
             </details>
@@ -77,7 +98,9 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn mr-8">Button</a>
+        <Link href="/pc-builder" className="btn mr-8">
+          PC Builder
+        </Link>
       </div>
     </div>
   );
