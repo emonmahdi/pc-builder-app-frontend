@@ -1,6 +1,7 @@
 import RootLayout from "@/components/Layouts/RootLayout";
 import AllProduct from "@/components/UI/AllProduct";
 import Banner from "@/components/UI/Banner";
+import FeaturedCategories from "@/components/UI/FeaturedCategory/FeaturedCategories";
 import Navbar from "@/components/shared/Navbar";
 import { Button } from "antd";
 import React from "react";
@@ -14,6 +15,9 @@ const HomePage = ({ allProducts }) => {
       </div>
       <div>
         <AllProduct allProducts={allProducts} />
+      </div>
+      <div className="py-20">
+        <FeaturedCategories />
       </div>
     </div>
   );
