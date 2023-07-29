@@ -1,5 +1,6 @@
 import RootLayout from "@/components/Layouts/RootLayout";
 import AllProduct from "@/components/UI/AllProduct";
+import Banner from "@/components/UI/Banner";
 import Navbar from "@/components/shared/Navbar";
 import { Button } from "antd";
 import React from "react";
@@ -8,8 +9,12 @@ const HomePage = ({ allProducts }) => {
   // console.log(allProducts);
   return (
     <div>
-      <h1>PC Builder Application Next Js</h1>
-      <AllProduct allProducts={allProducts} />
+      <div className="">
+        <Banner />
+      </div>
+      <div>
+        <AllProduct allProducts={allProducts} />
+      </div>
     </div>
   );
 };
@@ -29,5 +34,6 @@ export const getStaticProps = async () => {
     props: {
       allProducts: data.data,
     },
+    revalidate: 5,
   };
 };

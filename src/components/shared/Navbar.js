@@ -10,7 +10,7 @@ const Navbar = () => {
   } = theme.useToken();
 
   return (
-    <div className="navbar bg-info">
+    <div className="navbar bg-info z-20 relative">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -31,7 +31,7 @@ const Navbar = () => {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-60 "
           >
             <li>
               <a>Home</a>
