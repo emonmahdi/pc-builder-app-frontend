@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import React from "react";
+import ProductCard from "./ProductCard";
 
 const AllProduct = ({ allProducts }) => {
   //   console.log(allProducts);
@@ -13,11 +14,19 @@ const AllProduct = ({ allProducts }) => {
       </div>
       <div className="grid grid-cols-3 gap-4">
         {allProducts &&
-          allProducts?.map((product) => {
-            const { id, title, img, price, status, category, rating } = product;
-            return (
-              <>
-                <div key={id} className="card w-96 bg-base-100 shadow-xl mb-4">
+          allProducts?.map((product) => (
+            <ProductCard product={product} key={product.id}></ProductCard>
+          ))}
+      </div>
+    </>
+  );
+};
+
+export default AllProduct;
+
+/* 
+ const { id, title, img, price, status, category, rating } = product;
+<div key={id} className="card w-96 bg-base-100 shadow-xl mb-4">
                   <figure>
                     <img src={img} width="auto" height="250px" alt="Shoes" />
                   </figure>
@@ -52,18 +61,5 @@ const AllProduct = ({ allProducts }) => {
                     </div>
                   </div>
                 </div>
-              </>
-            );
-          })}
-      </div>
-    </>
-  );
-};
-
-export default AllProduct;
-
-/* 
-
-
 
 */
