@@ -6,7 +6,6 @@ const MonitorPage = ({ allMonitors }) => {
   console.log("all monitors: ", allMonitors);
   return (
     <div>
-      <h2>This category is Monitor...</h2>
       <AllMonitors allMonitors={allMonitors} />
     </div>
   );

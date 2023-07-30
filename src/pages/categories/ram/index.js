@@ -1,10 +1,11 @@
 import RootLayout from "@/components/Layouts/RootLayout";
+import AllRams from "@/components/UI/AllRams";
 import React from "react";
 
-const RamPage = () => {
+const RamPage = ({ allRams }) => {
   return (
-    <div>
-      <h2>This category is Ram Page...</h2>
+    <div> 
+      <AllRams allRams={allRams} />
     </div>
   );
 };
@@ -13,4 +14,17 @@ export default RamPage;
 
 RamPage.getLayout = function getLayout(page) {
   return <RootLayout>{page}</RootLayout>;
+};
+
+export const getStaticProps = async () => {
+  const res = await fetch("http://localhost:5000/rams");
+  const data = await res.json();
+  // console.log(data);
+
+  return {
+    props: {
+      allRams: data.data,
+    },
+    revalidate: 5,
+  };
 };
