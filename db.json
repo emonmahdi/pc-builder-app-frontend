@@ -777,5 +777,36 @@
       "reviews": "superb"
     }
   ],
-  "categories": {}
+  "categories": [
+    {
+      "id": 1,
+      "name": "cpu/processor",
+      "link": "/categories/processor"
+    },
+    {
+      "id": 2,
+      "name": "Motherboard",
+      "link": "/categories/motherboard"
+    },
+    {
+      "id": 3,
+      "name": "RAM",
+      "link": "/categories/ram"
+    },
+    {
+      "id": 4,
+      "name": "Power Supply Unit",
+      "link": "/categories/power-supply-unit"
+    },
+    {
+      "id": 5,
+      "name": "Storage Device",
+      "link": "/categories/storage-device"
+    },
+    {
+      "id": 6,
+      "name": "Monitor",
+      "link": "/categories/monitor"
+    }
+  ]
 }

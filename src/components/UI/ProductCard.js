@@ -22,7 +22,7 @@ const ProductCard = ({ product }) => {
             <p>
               {" "}
               <span className="font-bold capitalize">Category:</span>{" "}
-              <span className="bg-black p-2 px-4 text-white rounded-full capitalize">
+              <span className="bg-black px-2 py-1 text-white rounded-full capitalize">
                 {category}
               </span>
             </p>
@@ -33,6 +33,9 @@ const ProductCard = ({ product }) => {
               {" "}
               <span className="font-bold">Rating:</span> {rating}
             </p>
+          </div>
+          <div className="text-center my-4">
+            <button className="btn btn-primary">Add To Builder</button>
           </div>
         </div>
       </div>
