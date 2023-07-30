@@ -4,7 +4,7 @@ import React from "react";
 
 const PowerSupplyPage = ({ allPowerSupply }) => {
   return (
-    <div> 
+    <div>
       <AllPowerSupply allPowerSupply={allPowerSupply} />
     </div>
   );
@@ -17,13 +17,13 @@ PowerSupplyPage.getLayout = function getLayout(page) {
 };
 
 export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:5000/power-supply");
+  const res = await fetch("http://localhost:5000/power_supply_unit");
   const data = await res.json();
   // console.log(data);
 
   return {
     props: {
-      allPowerSupply: data.data,
+      allPowerSupply: data,
     },
     revalidate: 5,
   };

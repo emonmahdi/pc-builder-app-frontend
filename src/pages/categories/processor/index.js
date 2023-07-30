@@ -2,9 +2,9 @@ import RootLayout from "@/components/Layouts/RootLayout";
 import AllProcessor from "@/components/UI/AllProcessor";
 import React from "react";
 
-const ProcessorPage = ({allProcessors}) => {
+const ProcessorPage = ({ allProcessors }) => {
   return (
-    <div> 
+    <div>
       <AllProcessor allProcessors={allProcessors} />
     </div>
   );
@@ -17,13 +17,13 @@ ProcessorPage.getLayout = function getLayout(page) {
 };
 
 export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:5000/processors");
+  const res = await fetch("http://localhost:5000/processor");
   const data = await res.json();
   // console.log(data);
 
   return {
     props: {
-      allProcessors: data.data,
+      allProcessors: data,
     },
     revalidate: 5,
   };

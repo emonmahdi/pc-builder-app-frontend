@@ -4,7 +4,7 @@ import React from "react";
 
 const OthersPage = ({ allOthers }) => {
   return (
-    <div>  
+    <div>
       <AllOthers allOthers={allOthers} />
     </div>
   );
@@ -23,7 +23,7 @@ export const getStaticProps = async () => {
 
   return {
     props: {
-      allOthers: data.data,
+      allOthers: data,
     },
     revalidate: 5,
   };

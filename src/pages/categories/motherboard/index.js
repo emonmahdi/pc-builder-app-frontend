@@ -4,7 +4,7 @@ import React from "react";
 
 const MotherboardPage = ({ allMotherboards }) => {
   return (
-    <div> 
+    <div>
       <AllMotherboard allMotherboards={allMotherboards} />
     </div>
   );
@@ -17,13 +17,13 @@ MotherboardPage.getLayout = function getLayout(page) {
 };
 
 export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:5000/motherboards");
+  const res = await fetch("http://localhost:5000/motherboard");
   const data = await res.json();
   // console.log(data);
 
   return {
     props: {
-      allMotherboards: data.data,
+      allMotherboards: data,
     },
     revalidate: 5,
   };
