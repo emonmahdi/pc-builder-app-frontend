@@ -190,36 +190,36 @@
       "rating": "4.3 out of 5"
     }
   ],
+  "monitor": [
+    {
+      "id": "1",
+      "title": "MSI PRO MP223 21.45' Full HD Business Monitor",
+      "img": "https://i.ibb.co/LngbJpc/mp223-06-500x500.webp",
+      "price": 9800,
+      "category": "monitor",
+      "status": "In Stock",
+      "rating": "4 out of 5"
+    },
+    {
+      "id": "2",
+      "title": "MSI PRO MP241X 23.8' 75Hz FHD Monitor",
+      "img": "https://i.ibb.co/Y8g67NZ/pro-mp241x-0001-500x500.png",
+      "price": 15200,
+      "category": "monitor",
+      "status": "In Stock",
+      "rating": "4.5 out of 5"
+    },
+    {
+      "id": "3",
+      "title": "LG 22MK600M-B 21.5 inch IPS Full HD LED Monitor",
+      "img": "https://i.ibb.co/h1tGcY4/lg-22mk600m-1-500x500.jpg",
+      "price": 14700,
+      "category": "monitor",
+      "status": "In Stock",
+      "rating": "4.4 out of 5"
+    }
+  ],
   "categories": {
-    "monitor": [
-      {
-        "id": "1",
-        "title": "MSI PRO MP223 21.45' Full HD Business Monitor",
-        "img": "https://i.ibb.co/LngbJpc/mp223-06-500x500.webp",
-        "price": 9800,
-        "category": "monitor",
-        "status": "In Stock",
-        "rating": "4 out of 5"
-      },
-      {
-        "id": "2",
-        "title": "MSI PRO MP241X 23.8' 75Hz FHD Monitor",
-        "img": "https://i.ibb.co/Y8g67NZ/pro-mp241x-0001-500x500.png",
-        "price": 15200,
-        "category": "monitor",
-        "status": "In Stock",
-        "rating": "4.5 out of 5"
-      },
-      {
-        "id": "3",
-        "title": "LG 22MK600M-B 21.5 inch IPS Full HD LED Monitor",
-        "img": "https://i.ibb.co/h1tGcY4/lg-22mk600m-1-500x500.jpg",
-        "price": 14700,
-        "category": "monitor",
-        "status": "In Stock",
-        "rating": "4.4 out of 5"
-      }
-    ],
     "processor": [
       {
         "id": "1",

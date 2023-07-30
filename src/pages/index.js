@@ -29,14 +29,19 @@ HomePage.getLayout = function getLayout(page) {
   return <RootLayout>{page}</RootLayout>;
 };
 
+function getRandomProducts(array, n) {
+  const shuffledArray = array.sort(() => 0.5 - Math.random());
+  return shuffledArray.slice(0, n);
+}
+
 export const getStaticProps = async () => {
   const res = await fetch("http://localhost:5000/products");
   const data = await res.json();
   // console.log(data);
-
+  const randomProducts = getRandomProducts(data, 6);
   return {
     props: {
-      allProducts: data.data,
+      allProducts: randomProducts,
     },
     revalidate: 5,
   };
