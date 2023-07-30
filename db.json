@@ -221,7 +221,7 @@
   ],
   "processor": [
     {
-      "id": "1",
+      "id": "4",
       "title": "Intel Pentium Gold G6405 Coffee Lake Processor",
       "img": "https://i.ibb.co/7RKmLbP/pentium-gold-g6405-01-500x500.webp",
       "price": 7000,
@@ -230,7 +230,7 @@
       "rating": "4 out of 5"
     },
     {
-      "id": "2",
+      "id": "5",
       "title": "AMD Athlon 200GE AM4 Socket Desktop Processor with Radeon Vega 3 Graphics",
       "img": "https://i.ibb.co/Kqd055m/athlon-500x500.jpg",
       "price": 7200,
@@ -239,7 +239,7 @@
       "rating": "4 out of 5"
     },
     {
-      "id": "3",
+      "id": "6",
       "title": "Intel 10th Gen Core i3 10100F Processor",
       "img": "https://i.ibb.co/DMX75P4/i3-10100-500x500.jpg",
       "price": 8200,
@@ -248,38 +248,9 @@
       "rating": "4.6 out of 5"
     }
   ],
-  "ram": [
-    {
-      "id": "1",
-      "title": "Transcend 4GB JM DDR4 3200Mhz SO-DIMM Laptop RAM",
-      "img": "https://i.ibb.co/5WdrTYV/jm3200hsh-4g-500x500.jpg",
-      "price": 1500,
-      "category": "ram",
-      "status": "In Stock",
-      "rating": "4.3 out of 5"
-    },
-    {
-      "id": "2",
-      "title": "Crucial 8GB Single DDR4 2666MHz Laptop RAM",
-      "img": "https://i.ibb.co/b1ddC1k/single-ddr4-2666-500x500.jpg",
-      "price": 2700,
-      "category": "ram",
-      "status": "In Stock",
-      "rating": "4.7 out of 5"
-    },
-    {
-      "id": "3",
-      "title": "Lexar 8GB DDR4 3200MHz SODIMM Laptop RAM",
-      "img": "https://i.ibb.co/gZXjBQK/ddr4-3200mhz-1-500x500.jpg",
-      "price": 3200,
-      "category": "ram",
-      "status": "Out of Stock",
-      "rating": "4 out of 5"
-    }
-  ],
   "motherboard": [
     {
-      "id": "1",
+      "id": "7",
       "title": "ASRock H81M-VG4 R4.0 4th Gen Micro ATX Motherboard",
       "img": "https://i.ibb.co/YX3jkGY/h81m-vg4-r4-0-01-500x500.jpg",
       "price": 8000,
@@ -288,7 +259,7 @@
       "rating": "4.7 out of 5"
     },
     {
-      "id": "2",
+      "id": "8",
       "title": "Gigabyte GA-H110M S2PH-DDR4 Motherboard",
       "img": "https://i.ibb.co/FW59r8D/Gigabyte-GA-H110-M-S2-PH-DDR4-500x500.jpg",
       "price": 8900,
@@ -297,7 +268,7 @@
       "rating": "4.5 out of 5"
     },
     {
-      "id": "3",
+      "id": "9",
       "title": "Gigabyte GA-H81M-S2PH Micro ATX Motherboard",
       "img": "https://i.ibb.co/wsK198Z/ga-h81m-s2ph-500x500.jpg",
       "price": 7900,
@@ -306,9 +277,38 @@
       "rating": "4.8 out of 5"
     }
   ],
+  "ram": [
+    {
+      "id": "10",
+      "title": "Transcend 4GB JM DDR4 3200Mhz SO-DIMM Laptop RAM",
+      "img": "https://i.ibb.co/5WdrTYV/jm3200hsh-4g-500x500.jpg",
+      "price": 1500,
+      "category": "ram",
+      "status": "In Stock",
+      "rating": "4.3 out of 5"
+    },
+    {
+      "id": "11",
+      "title": "Crucial 8GB Single DDR4 2666MHz Laptop RAM",
+      "img": "https://i.ibb.co/b1ddC1k/single-ddr4-2666-500x500.jpg",
+      "price": 2700,
+      "category": "ram",
+      "status": "In Stock",
+      "rating": "4.7 out of 5"
+    },
+    {
+      "id": "12",
+      "title": "Lexar 8GB DDR4 3200MHz SODIMM Laptop RAM",
+      "img": "https://i.ibb.co/gZXjBQK/ddr4-3200mhz-1-500x500.jpg",
+      "price": 3200,
+      "category": "ram",
+      "status": "Out of Stock",
+      "rating": "4 out of 5"
+    }
+  ],
   "power_supply_unit": [
     {
-      "id": "1",
+      "id": "13",
       "title": "ASUS ROG THOR 1200P2 GAMING 80 Plus Platinum 1200W Power Supply",
       "img": "https://i.ibb.co/zm0NyL9/thor-1200p2-500x500.webp",
       "price": 50000,
@@ -317,7 +317,7 @@
       "rating": "4.6 out of 5"
     },
     {
-      "id": "2",
+      "id": "14",
       "title": "Corsair HX1500i 1500W 80+ Platinum Full-Modular ATX Power Supply",
       "img": "https://i.ibb.co/PjP0JR4/hx1500i-1500w-01-500x500.webp",
       "price": 45000,
@@ -326,7 +326,7 @@
       "rating": "4.2 out of 5"
     },
     {
-      "id": "3",
+      "id": "15",
       "title": "MSI MEG Ai1300P PCIE5 1300W 80 Plus Platinum Fully Modular Power Supply",
       "img": "https://i.ibb.co/F4P9z9D/meg-ai1300p-pcie5-1300w-01-500x500.webp",
       "price": 36000,
@@ -337,7 +337,7 @@
   ],
   "storage_device": [
     {
-      "id": "1",
+      "id": "16",
       "title": "Apacer AH155 64GB USB 3.2 Gen 1 Flash Drive",
       "img": "https://i.ibb.co/mt8PrKT/ah155-01-500x500.webp",
       "price": 1100,
@@ -346,7 +346,7 @@
       "rating": "4.5 out of 5"
     },
     {
-      "id": "2",
+      "id": "17",
       "title": "Transcend TS128GJF790K 128GB USB 3.0 Pen Drive",
       "img": "https://i.ibb.co/rwsyMtS/Transcend-TS128-GJF790-K-1-500x500.jpg",
       "price": 1270,
@@ -355,7 +355,7 @@
       "rating": "4.5 out of 5"
     },
     {
-      "id": "3",
+      "id": "18",
       "title": "TEAM C175 128GB 3.2 USB Pendrive",
       "img": "https://i.ibb.co/9svwdqr/c175-01-500x500.jpg",
       "price": 999,
@@ -366,7 +366,7 @@
   ],
   "others": [
     {
-      "id": "1",
+      "id": "19",
       "title": "Micropack K2208 USB Mini Keyboard",
       "img": "https://i.ibb.co/J3xyMVG/k2208-03-500x500.webp",
       "price": 650,
@@ -375,7 +375,7 @@
       "rating": "4.3 out of 5"
     },
     {
-      "id": "2",
+      "id": "20",
       "title": "A4TECH OP-730D 2X Click Optical Wired Mouse",
       "img": "https://i.ibb.co/Zc21bd7/730d-main-500x500.jpg",
       "price": 450,
@@ -384,7 +384,7 @@
       "rating": "4.3 out of 5"
     },
     {
-      "id": "3",
+      "id": "21",
       "title": "Lian Li O11D EVO Vertical GPU Kit",
       "img": "https://i.ibb.co/THCnYSB/o11d-evo-vertical-gpu-kit-01-500x500.webp",
       "price": 6700,
